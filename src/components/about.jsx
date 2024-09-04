@@ -1,15 +1,15 @@
 const About = () => {
     return (
-        <div className="max-w-7xl min-h-screen mx-auto flex items-start flex-col px-4 justify-center">
+        <div className="max-w-7xl min-h-screen mx-auto flex items-start flex-col px-4 justify-center" id="about-us">
             <span className="flex justify-center flex-col items-center self-center">
                 <h1 data-aos='fade-up' className="text-xl md:text-2xl font-bold mb-3 self-center ">About</h1>
                 <span className="self-center w-16 border-b-4 border-[#116655]"></span>
             </span>
 
-            <p data-aos='fade-up'  className="text-2xl md:text-3xl font-bold self-center my-5">Why Us</p>
-            <p data-aos='fade-up'  className="text-sm md:text-xl text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, </p>
+            <p data-aos='fade-up' className="text-2xl md:text-3xl font-bold self-center my-5">Why Us</p>
+            <p data-aos='fade-up' className="text-sm md:text-xl text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, </p>
 
-            <div data-aos='fade-up'  className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 mt-5 gap-5 place-items-center md:mt-20">
+            <div data-aos='fade-up' className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 mt-5 gap-5 place-items-center md:mt-20">
                 <Badge />
                 <Badge />
                 <Badge />
@@ -23,7 +23,7 @@ export default About;
 
 
 const Badge = () => (
-    <div data-aos='fade-up'  className="flex gap-2 md:flex md:flex-col">
+    <div data-aos='fade-up' className="flex gap-2 md:flex md:flex-col">
         <div className='block md:flex gap-2 items-center'>
             <span className="inline-block bg-gradient-to-br to-[#116655] from-[#5CC1AD] w-6 h-6 p-6 md:w-10 md:h-10 md:p-8 rounded-xl text-white self-center text-center">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

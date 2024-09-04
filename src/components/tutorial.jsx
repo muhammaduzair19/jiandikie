@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tutorial = () => {
     return (
-        <div className="max-w-7xl h-screen mx-auto flex items-start flex-col py-6 px-4 md:flex-row md:items-center">
+        <div className="max-w-7xl h-screen mx-auto flex items-start flex-col py-6 px-4 md:flex-row md:items-center" id='tutorial'>
             <div data-aos='fade-up'  className='w-full h-1/2 md:w-1/2 md:h-full flex flex-col justify-center'>
                 <span className="flex justify-center flex-col items-center self-center md:self-start">
                     <h1 className="text-xl md:text-2xl font-bold mb-3 self-center">Tutorial</h1>

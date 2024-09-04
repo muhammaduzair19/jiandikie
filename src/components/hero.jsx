@@ -6,7 +6,7 @@ const Hero = () => {
 
     return (
         <>
-            <div className="max-w-full h-screen bg-gradient-to-tl from-[#5CC1AD] via-[#5cc1ad84] to-white text-start curved-bottom ">
+            <div className="max-w-full h-screen bg-gradient-to-tl from-[#5CC1AD] via-[#5cc1ad84] to-white text-start curved-bottom" id='/'>
                 <div className='w-full h-full flex flex-col md:flex-row-reverse items-center max-w-7xl mx-auto px-5  md:px-8 -mt-2  lg:-mt-20'>
                     <div data-aos='fade-left'  className='w-full flex justify-center md:w-1/2 h-1/2'>
                         <img src={HeroImg} alt="" className='w-full' />

@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Blogs = () => {
     return (
-        <div className="max-w-7xl min-h-screen mx-auto flex items-start flex-col  px-4 py-8 mb-20 pb-20 md:pb-0">
+        <div className="max-w-7xl min-h-screen mx-auto flex items-start flex-col  px-4 py-8 mb-20 pb-20 md:pb-0" id="blog">
             <h1 data-aos='fade-up'  className="text-xl md:text-2xl font-bold mb-3 self-center md:self-start">Blogs</h1>
             <p data-aos='fade-up'  className="text-sm md:text-xl text-center md:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, </p>
             <div data-aos='fade-down'  className='w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10'>

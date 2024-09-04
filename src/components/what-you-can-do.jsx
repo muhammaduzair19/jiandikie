@@ -1,7 +1,7 @@
 import Intro from '../assets/intro.svg'
 const WhatYouCanDo = () => {
     return (
-        <div className="max-w-[88rem] min-h-screen mx-auto flex items-start flex-coljustify-center px-3 mb-20">
+        <div className="max-w-[88rem] min-h-screen mx-auto flex items-start flex-coljustify-center px-3 mb-20" id='what-you-can-do'>
             <div className="w-full h-full border border-gray-400 rounded-[50px] px-3 py-5">
                 <span className="flex justify-center flex-col">
                     <h1 data-aos='fade-up' className="text-xl md:text-2xl font-bold mb-3 self-center ">What you can do</h1>

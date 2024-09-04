@@ -33,7 +33,7 @@ const Packages = [
 
 const Pricing = () => {
     return (
-        <div className="max-w-7xl min-h-screen mx-auto px-4">
+        <div className="max-w-7xl min-h-screen mx-auto px-4" id="price">
             <span className="flex justify-center flex-col items-center self-center">
                 <h1 data-aos='fade-up' className="text-xl md:text-2xl font-bold mb-3 self-center ">Pricing</h1>
                 <span className="self-center w-16 border-b-4 border-[#116655]"></span>
